@@ -8,7 +8,11 @@ This project is an AI/ML-based weather outfit recommendation chatbot built using
 - Telegram Bot
 - OpenWeather API
 - Random Forest Machine Learning Model
-
+## Integration
+This project is integrated with Google Dialogflow for handling user queries.  
+Dialogflow is used for intent detection, and a webhook connects it with the backend logic
+## Architecture
+User → Dialogflow → Webhook (Python API) → Weather Logic → Response
 ## Features
 - Weather-based outfit suggestions
 - Occasion-based recommendations
